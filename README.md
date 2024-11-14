@@ -10,22 +10,22 @@ Reset: Clear the grid and try different setups.
 ### 1. A* (A-Star) Algorithm
 The A* algorithm is a heuristic search algorithm that combines the benefits of Dijkstra's algorithm and greedy best-first search. It uses a heuristic function to guide the search, often leading to the shortest path.<br>
     i. Heuristic: Uses the Manhattan distance for estimating the cost.<br>
-    ii. Optimality: Guarantees the shortest path.
+    ii. Optimality: Guarantees the shortest path.<br>
     iii. Best suited for: Cases where you want an efficient and accurate shortest path.
 ### 2. Dijkstra's Algorithm
-Dijkstra's algorithm is a graph search algorithm that finds the shortest path from the starting node to all other nodes. It does not use heuristics, making it a pure shortest-path algorithm.
-    i. Heuristic: None (guarantees shortest path by evaluating all possible paths).
-    ii. Optimality: Guarantees the shortest path.
+Dijkstra's algorithm is a graph search algorithm that finds the shortest path from the starting node to all other nodes. It does not use heuristics, making it a pure shortest-path algorithm.<br>
+    i. Heuristic: None (guarantees shortest path by evaluating all possible paths).<br>
+    ii. Optimality: Guarantees the shortest path.<br>
     iii. Best suited for: Applications requiring the shortest path to every node, not just a specific endpoint.
 ### 3. Breadth-First Search (BFS)
-BFS is a simple, uninformed search algorithm that expands nodes layer by layer, exploring all neighbors of a node before moving on to the next layer. It guarantees the shortest path in an unweighted grid but is not optimal for weighted graphs.
-    i. Heuristic: None.
-    ii. Optimality: Guarantees the shortest path in unweighted graphs.
+BFS is a simple, uninformed search algorithm that expands nodes layer by layer, exploring all neighbors of a node before moving on to the next layer. It guarantees the shortest path in an unweighted grid but is not optimal for weighted graphs.<br>
+    i. Heuristic: None.<br>
+    ii. Optimality: Guarantees the shortest path in unweighted graphs.<br>
     iii. Best suited for: Unweighted grids where you need the shortest path.
 ### 4. Depth-First Search (DFS)
-DFS is a basic graph traversal algorithm that explores as far down one branch as possible before backtracking. It does not guarantee the shortest path.
-    i. Heuristic: None.
-    ii. Optimality: Does not guarantee the shortest path.
+DFS is a basic graph traversal algorithm that explores as far down one branch as possible before backtracking. It does not guarantee the shortest path.<br>
+    i. Heuristic: None.<br>
+    ii. Optimality: Does not guarantee the shortest path.<br>
     iii. Best suited for: Situations requiring a path (not necessarily the shortest) or for exploring connected components.
 
 ## Differences Between the Algorithms
