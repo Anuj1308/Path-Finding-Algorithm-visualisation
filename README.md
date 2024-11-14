@@ -8,8 +8,8 @@ Obstacle mode: Easily toggle obstacle placement mode.
 Reset: Clear the grid and try different setups.
 ## Algorithms
 ### 1. A* (A-Star) Algorithm
-The A* algorithm is a heuristic search algorithm that combines the benefits of Dijkstra's algorithm and greedy best-first search. It uses a heuristic function to guide the search, often leading to the shortest path.
-    i. Heuristic: Uses the Manhattan distance for estimating the cost.
+The A* algorithm is a heuristic search algorithm that combines the benefits of Dijkstra's algorithm and greedy best-first search. It uses a heuristic function to guide the search, often leading to the shortest path.<br>
+    i. Heuristic: Uses the Manhattan distance for estimating the cost.<br>
     ii. Optimality: Guarantees the shortest path.
     iii. Best suited for: Cases where you want an efficient and accurate shortest path.
 ### 2. Dijkstra's Algorithm
